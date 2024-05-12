@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    url: jdbc:sqlserver://;serverName=localhost;databaseName=master;trustServerCertificate=true;
+    username: sa
+    password: Marcos789,.
+
+logging:
+  level:
+    root: info
+    com.demo: debug
